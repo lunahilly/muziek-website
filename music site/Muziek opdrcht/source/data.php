@@ -54,7 +54,7 @@ $library = [
         "artist" => "Alec Benjamin",
         "title" => "Outrunning Karma",
         "album" => "Narrated For You",
-        "duration" => 3.09,
+        "img" => "/img/img_1.jpg",
         "genre" => "sad",
     ],
     [
