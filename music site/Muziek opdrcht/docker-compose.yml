@@ -32,8 +32,6 @@ services:
   mariadb:
     container_name: db
     image: mariadb:latest
-    ports:
-      - 3307:3306
     environment:
       MYSQL_DATABASE: muziekwebsite
       MYSQL_USER: Luna

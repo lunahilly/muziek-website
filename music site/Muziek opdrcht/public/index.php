@@ -18,7 +18,9 @@
         </nav>
     </header>
     <article class="Library">
-
+    <?php 
+    include('source/views/card.php');
+    ?>
     </article>
     
 </body>
@@ -26,18 +28,4 @@
 
 
 
-#docent code#
-<?php
-require_once("/source/views/data.php")
-?>
 
-<?php
-    foreach ($library as $single ){
-        echo $single['title'] . '<br>';
-        include('/source/views/card.php');
-    }
-
-    for( $i=0; $i<10; $i++ ){
-        include('/source/views/card.php');
-    }
-?>
